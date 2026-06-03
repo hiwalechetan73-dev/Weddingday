@@ -11,6 +11,7 @@ import AudioPlayerControl from './components/AudioPlayerControl';
 import CountdownTimer from './components/CountdownTimer';
 import VenueTimeline from './components/VenueTimeline';
 import AestheticSideGarlands from './components/AestheticSideGarlands';
+import EngagementGallery from './components/EngagementGallery';
 import FestiveToran from './components/FestiveToran';
 import FloralCornerOrnament from './components/FloralCornerOrnament';
 
@@ -189,6 +190,18 @@ export default function App() {
           </div>
 
         </div>
+      </motion.section>
+
+      {/* PINTEREST STYLE GALLERY SECTION */}
+      <motion.section
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
+        className="relative z-10"
+        id="pinterest-gallery-section"
+      >
+        <EngagementGallery />
       </motion.section>
 
       {/* TEMPLATE DETAIL SCHEDULING (HALDI, WEDDING, RECEPTION TIMES & ADDRESS) */}
