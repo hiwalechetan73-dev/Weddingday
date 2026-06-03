@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Wedding Invitation",
+  "description": "A beautiful, premium digital wedding invitation featuring an Indian theme, interactive countdown, venue timeline, and RSVP tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
