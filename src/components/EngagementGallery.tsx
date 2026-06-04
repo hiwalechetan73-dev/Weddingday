@@ -3,8 +3,8 @@ import { motion, AnimatePresence } from 'motion/react';
 import { ZoomIn, X } from 'lucide-react';
 
 // Exact generated image asset references
-import couplePortrait from '../assets/images/couple_portrait_1_1780406525502.png';
-import coupleCandid from '../assets/images/couple_candid_2_1780406542304.png';
+import couplePortrait from '../assets/images/09222913-f78d-4e95-b56a-7d757a8090fd.jpeg';
+import coupleCandid from '../assets/images/a127b1a8-4873-401d-800d-54572a71491a.jpeg';
 import weddingDetails from '../assets/images/wedding_details_3_1780406557464.png';
 import coupleSunset from '../assets/images/couple_sunset_4_1780406573217.png';
 
