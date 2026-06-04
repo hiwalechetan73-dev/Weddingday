@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Volume2, VolumeX, Music, Flame, Info } from 'lucide-react';
-import { AUDIO_TRACK_URL } from '../data';
+import { AUDIO_TRACK_URL } from '../assets/images/Whispering Dreams (1).mp3';
 
 export default function AudioPlayerControl() {
   const [isPlaying, setIsPlaying] = useState(false);
