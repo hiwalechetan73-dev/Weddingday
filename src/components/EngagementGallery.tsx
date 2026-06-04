@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ZoomIn, X } from 'lucide-react';
-import src from 'src/assets/images';
+import src from 'Weddingday/src/assets/images';
 interface GalleryItem {
   id: string;
   src: string;
