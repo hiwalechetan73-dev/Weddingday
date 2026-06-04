@@ -7,7 +7,7 @@ import { COUPLE } from './data';
 
 // Components
 import MarigoldPetalShower from './components/MarigoldPetalShower';
-import AudioPlayerControl from './components/AudioPlayerControl';
+// import AudioPlayerControl from './components/AudioPlayerControl';
 import CountdownTimer from './components/CountdownTimer';
 import VenueTimeline from './components/VenueTimeline';
 import AestheticSideGarlands from './components/AestheticSideGarlands';
@@ -28,7 +28,7 @@ export default function App() {
       <AestheticSideGarlands />
 
       {/* 3. Audio control for Sitar Ambient track */}
-      <AudioPlayerControl />
+      {/* <AudioPlayerControl /> */}
 
       {/* Decorative Ornate Border Framing at the extreme top of the invitation */}
       <div className="absolute top-0 inset-x-0 h-4 bg-gradient-to-r from-orange-400 via-[#dfc59a] to-emerald-400 z-30" />
