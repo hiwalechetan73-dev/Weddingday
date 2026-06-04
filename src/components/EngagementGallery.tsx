@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ZoomIn, X } from 'lucide-react';
-import src from 'Weddingday/src/assets/images';
+import img1 from '../assets/images/09222913-f78d-4e95-b56a-7d757a8090fd.jpeg';
+import img2 from '../assets/images/a127b1a8-4873-401d-800d-54572a71491a.jpeg';
+
 interface GalleryItem {
   id: string;
   src: string;
@@ -17,7 +19,7 @@ export default function EngagementGallery() {
   const photos: GalleryItem[] = [
     {
       id: 'photo-1',
-      src : '09222913-f78d-4e95-b56a-7d757a8090fd.jpeg',
+      src : img1,
       title: 'Moments of Serene Connection',
       caption: 'A gentle look, a shared breath, beginning an auspicious lease of life in perfect harmony.',
       category: 'Soulmates',
@@ -25,7 +27,7 @@ export default function EngagementGallery() {
     },
     {
       id: 'photo-2',
-      src : 'a127b1a8-4873-401d-800d-54572a71491a.jpeg',
+      src : img2,
       title: 'Joy Beneath the Marigold Canopy',
       caption: 'Laughter echoing like soft bells under the warmth of the golden morning sun.',
       category: 'Candids',
