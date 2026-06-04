@@ -2,12 +2,6 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ZoomIn, X } from 'lucide-react';
 
-// Exact generated image asset references
-import couplePortrait from '../assets/images/couple_portrait_1_1780406525502.png';
-import coupleCandid from '../assets/images/couple_candid_2_1780406542304.png';
-import weddingDetails from '../assets/images/wedding_details_3_1780406557464.png';
-import coupleSunset from '../assets/images/couple_sunset_4_1780406573217.png';
-
 interface GalleryItem {
   id: string;
   src: string;
@@ -23,7 +17,7 @@ export default function EngagementGallery() {
   const photos: GalleryItem[] = [
     {
       id: 'photo-1',
-      src: couplePortrait,
+      src: '/a127b1a8-4873-401d-800d-54572a71491a.jpeg',
       title: 'Moments of Serene Connection',
       caption: 'A gentle look, a shared breath, beginning an auspicious lease of life in perfect harmony.',
       category: 'Soulmates',
@@ -31,13 +25,19 @@ export default function EngagementGallery() {
     },
     {
       id: 'photo-2',
-      src: coupleCandid,
+      src: '/09222913-f78d-4e95-b56a-7d757a8090fd.jpeg',
       title: 'Joy Beneath the Marigold Canopy',
       caption: 'Laughter echoing like soft bells under the warmth of the golden morning sun.',
       category: 'Candids',
       aspect: 'aspect-[3/4]'
     }
   ];
+
+  // Restrict and support only jpeg/jpg images
+  const supportedPhotos = photos.filter(photo => {
+    const filename = photo.src.split('?')[0].toLowerCase();
+    return filename.endsWith('.jpeg') || filename.endsWith('.jpg');
+  });
 
   return (
     <div className="w-full max-w-4xl mx-auto px-4 py-16" id="engagement-photos-section">
@@ -60,7 +60,7 @@ export default function EngagementGallery() {
 
       {/* Symmetric Dual-Column Layout */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-3xl mx-auto">
-        {photos.map((photo) => (
+        {supportedPhotos.map((photo) => (
           <div
             key={photo.id}
             onClick={() => setActivePhoto(photo)}
