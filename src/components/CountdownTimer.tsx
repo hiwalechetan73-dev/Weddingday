@@ -52,9 +52,9 @@ export default function CountdownTimer() {
     return (
       <div className="flex flex-col items-center justify-center p-6 text-center" id="countdown-timer-completed">
         <div className="text-xl md:text-2xl font-serif font-semibold text-[#6a8270] animate-pulse tracking-wider">
-          ☸ The Auspicious Moment Has Arrived ☸
+          ☸ शुभ क्षण आला आहे. ☸
         </div>
-        <p className="text-stone-700 font-sans text-xs mt-2 italic">{COUPLE.groom.firstName} &amp; {COUPLE.bride.firstName} are married! Bless them with your infinite love.</p>
+        <p className="text-stone-700 font-sans text-xs mt-2 italic">{COUPLE.groom.firstName} &amp; {COUPLE.bride.firstName} विवाहबद्ध झाले आहेत! त्यांना तुमच्या असीम प्रेमाचा आशीर्वाद द्या..</p>
       </div>
     );
   }
@@ -64,7 +64,7 @@ export default function CountdownTimer() {
       {/* Sub-heading decoration */}
       <div className="flex items-center gap-3 mb-6">
         <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-[#b8860b]" />
-        <span className="text-[#1e2f24] font-serif-display uppercase text-xs tracking-[0.25em] font-black">Auspicious Countdown</span>
+        <span className="text-[#1e2f24] font-serif-display uppercase text-xs tracking-[0.25em] font-black">शुभ काउंटडाउन</span>
         <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-[#b8860b]" />
       </div>
 
