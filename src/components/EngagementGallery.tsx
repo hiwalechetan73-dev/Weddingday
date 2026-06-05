@@ -46,10 +46,8 @@ export default function EngagementGallery() {
       
       {/* Editorial Header */}
       <div className="text-center mb-10">
-        <span className="font-script text-[#b8860b] text-4xl sm:text-5xl block mb-2">Pre-Wedding Frames</span>
-        <h2 className="font-serif-display text-3xl sm:text-4xl text-[#1e2f24] font-bold tracking-widest uppercase">
-          Love in Focus
-        </h2>
+        <span className="font-script text-[#b8860b] text-4xl sm:text-5xl block mb-2">प्री-वेडिंग फ्रेम्स</span>
+        
         <p className="text-stone-500 font-sans text-xs tracking-[0.25em] uppercase mt-3 max-w-md mx-auto leading-relaxed">
           मोहित आणि कोमल यांच्या पवित्र मिलनाच्या प्रवासाची झलक • हस्तनिर्मित
         </p>
@@ -87,7 +85,7 @@ export default function EngagementGallery() {
                     <ZoomIn className="w-5 h-5 text-[#b8860b]" />
                   </div>
                   <span className="text-[#dfc59a] font-serif-display text-xs uppercase tracking-[0.2em] font-bold mt-4 drop-shadow-md">
-                    View Portrait
+                    पोर्ट्रेट पहा
                   </span>
                 </div>
 
