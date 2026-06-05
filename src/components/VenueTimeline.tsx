@@ -7,12 +7,12 @@ export default function VenueTimeline() {
     <div className="w-full font-sans" id="venue-timeline-component">
       {/* Decorative header */}
       <div className="text-center mb-8">
-        <span className="font-script text-[#b8860b] text-4xl sm:text-5xl block mb-2">Shubh Vivah</span>
+        <span className="font-script text-[#b8860b] text-4xl sm:text-5xl block mb-2">शुभ विवाह</span>
         <h2 className="font-serif-display text-3xl md:text-4xl text-[#1e2f24] font-bold tracking-widest uppercase">
-          The Wedding Ceremonies
+          विवाह समारंभ
         </h2>
         <p className="text-stone-500 font-sans text-xs tracking-[0.25em] uppercase mt-2 font-semibold">
-          Join Us in Celebrating Our Sacred Rituals
+          आमच्या पवित्र विधींच्या उत्सवात सहभागी व्हा.
         </p>
         <div className="flex items-center justify-center gap-2 mt-4 select-none">
           <span className="text-orange-500 text-sm animate-pulse">🏵️</span>
@@ -136,7 +136,7 @@ export default function VenueTimeline() {
                         className="inline-flex items-center gap-1 px-4 py-1.5 rounded-full text-xs font-bold bg-stone-900 text-amber-400 hover:bg-stone-800 transition-colors shadow-sm focus:outline-none focus:ring-1 focus:ring-amber-400"
                       >
                         <Sparkles className="w-3 h-3 text-amber-400 animate-spin" />
-                        <span>Navigate on Google Maps</span>
+                        <span>गुगल मॅप्सवर मार्गक्रमण करा</span>
                       </a>
                     </div>
                   </div>
