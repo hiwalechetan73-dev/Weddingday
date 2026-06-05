@@ -17,19 +17,35 @@ export default function EngagementGallery() {
   const [activePhoto, setActivePhoto] = useState<GalleryItem | null>(null);
 
   const photos: GalleryItem[] = [
+    // {
+    //   id: 'photo-1',
+    //   src : img1,
+    //   title: 'नात्याचे क्षण',
+    //   caption: 'एक प्रेमळ कटाक्ष, एक श्वासाची देवाणघेवाण, परिपूर्ण सुसंवादाने एका शुभ जीवनाची सुरुवात.',
+    //   category: 'Soulmates',
+    //   aspect: 'aspect-[3/4]'
+    // },
+    // {
+    //   id: 'photo-2',
+    //   src : img2,
+    //   title: 'झेंडूच्या छताखाली आनंद',
+    //   caption: 'सकाळच्या सोनेरी उन्हाच्या उबदारपणात, मंद घंटांप्रमाणे हास्याचे पडसाद उमटत होते.',
+    //   category: 'Candids',
+    //   aspect: 'aspect-[3/4]'
+    // }
     {
       id: 'photo-1',
       src : img1,
-      title: 'नात्याचे क्षण',
-      caption: 'एक प्रेमळ कटाक्ष, एक श्वासाची देवाणघेवाण, परिपूर्ण सुसंवादाने एका शुभ जीवनाची सुरुवात.',
+      title: '',
+      caption: '',
       category: 'Soulmates',
       aspect: 'aspect-[3/4]'
     },
     {
       id: 'photo-2',
       src : img2,
-      title: 'झेंडूच्या छताखाली आनंद',
-      caption: 'सकाळच्या सोनेरी उन्हाच्या उबदारपणात, मंद घंटांप्रमाणे हास्याचे पडसाद उमटत होते.',
+      title: '',
+      caption: '',
       category: 'Candids',
       aspect: 'aspect-[3/4]'
     }
