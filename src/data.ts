@@ -58,7 +58,7 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
     title: 'भव्य स्वागत समारंभ',
     date: 'शनिवार, २० जून, २०२६',
     time: 'दुपारी ०४:०० पासून पुढे',
-    venueName: 'रामाजी लॉन्स',
+    venueName: 'रामजी लॉन्स',
     address: 'चिखली रोड, बुलडाणा, महाराष्ट्र',
     mapUrl: 'https://maps.google.com/?q=Ramaji+Lawns+Chikhali+road+Buldana',
     description: 'आनंद आणि कृतज्ञतेची संध्या! पती-पत्नी म्हणून आपली पहिली संध्याकाळ दिव्य संगीत, कौटुंबिक शुभेच्छा आणि भव्य मेजवानीसह साजरी करा. पेहराव: इंडो-वेस्टर्न / फॉर्मल्स.',
