@@ -73,7 +73,7 @@ export default function App() {
           </div>
 
           <span className="text-[#2d4234]/80 font-serif-display text-xs tracking-[0.25em] block mb-2 font-bold uppercase max-w-xl mx-auto leading-relaxed">
-            With the sacred blessings of Buddha, Dhamma, and Sangha, we invite you to celebrate the auspicious union of
+            बुद्ध, धम्म आणि संघ यांच्या पवित्र आशीर्वादाने, आम्ही तुम्हाला या शुभ मिलनाचा सोहळा साजरा करण्यासाठी आमंत्रित करतो.
           </span>
 
           {/* Parental honors header */}
@@ -87,7 +87,7 @@ export default function App() {
               {COUPLE.groom.parents} &nbsp;&amp;&nbsp; {COUPLE.bride.parents}
             </p>
             <p className="text-stone-600 text-xs sm:text-[13px] mt-1 italic font-serif">
-              cordially request your gracious participation in celebrating the marriage of their beloved children
+              त्यांच्या प्रिय मुलामुलींच्या विवाह सोहळ्यात आपणास सन्माननीय सहभाग घेण्याची विनंती आहे.
             </p>
           </div>
 
@@ -97,7 +97,7 @@ export default function App() {
               <h1 className="font-script text-4xl sm:text-5xl md:text-6xl text-amber-700 font-normal tracking-wide leading-none pb-1 select-none hover:scale-105 transition-transform duration-500">
                 {COUPLE.groom.firstName}
               </h1>
-              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">Son of {COUPLE.groom.parents}</span>
+              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">{COUPLE.groom.parents} चा मुलगा</span>
             </div>
 
             <div className="my-2 md:my-0 flex items-center justify-center select-none">
@@ -112,7 +112,7 @@ export default function App() {
               <h1 className="font-script text-4xl sm:text-5xl md:text-6xl text-amber-700 font-normal tracking-wide leading-none pb-1 select-none hover:scale-105 transition-transform duration-500">
                 {COUPLE.bride.firstName}
               </h1>
-              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">Daughter of {COUPLE.bride.parents}</span>
+              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">{COUPLE.bride.parents} ची मुलगी</span>
             </div>
           </div>
 
@@ -148,7 +148,7 @@ export default function App() {
 
         {/* Scroll helper */}
         <div className="absolute bottom-4 flex flex-col items-center gap-1 select-none pointer-events-none text-[#6a8270] text-[10px] tracking-widest uppercase mt-6">
-          <span className="animate-bounce">Scroll Down for Timelines</span>
+          <span className="animate-bounce"></span>
           <ChevronDownLoader />
         </div>
       </motion.header>
@@ -171,9 +171,9 @@ export default function App() {
 
           {/* Groom details banner */}
           <div className="text-center md:text-right space-y-3 pr-0 md:pr-6 border-b md:border-b-0 md:border-r border-[#6a8270]/20 pb-6 md:pb-0">
-            <span className="text-[10px] uppercase tracking-[0.2em] text-[#b8860b] font-serif-display font-black block">The Groom</span>
+            <span className="text-[10px] uppercase tracking-[0.2em] text-[#b8860b] font-serif-display font-black block">वर</span>
             <h3 className="font-serif-display text-2xl font-bold tracking-widest uppercase text-[#1e2f24]">{COUPLE.groom.fullName}</h3>
-            <p className="text-xs text-[#b8860b] font-serif italic">Beloved Son of {COUPLE.groom.parents}</p>
+            <p className="text-xs text-[#b8860b] font-serif italic">{COUPLE.groom.parents} चा प्रिय पुत्र</p>
             <p className="text-stone-700 text-xs sm:text-sm font-sans leading-relaxed text-center md:text-right max-w-sm md:ml-auto">
               {COUPLE.groom.bio}
             </p>
@@ -181,9 +181,9 @@ export default function App() {
 
           {/* Bride details banner */}
           <div className="text-center md:text-left space-y-3 pl-0 md:pl-6 pt-2 md:pt-0">
-            <span className="text-[10px] uppercase tracking-[0.2em] text-[#b8860b] font-serif-display font-black block">The Bride</span>
+            <span className="text-[10px] uppercase tracking-[0.2em] text-[#b8860b] font-serif-display font-black block">वधू</span>
             <h3 className="font-serif-display text-2xl font-bold tracking-widest uppercase text-[#1e2f24]">{COUPLE.bride.fullName}</h3>
-            <p className="text-xs text-[#b8860b] font-serif italic">Beloved Daughter of {COUPLE.bride.parents}</p>
+            <p className="text-xs text-[#b8860b] font-serif italic">{COUPLE.bride.parents} ची प्रिय कन्या</p>
             <p className="text-stone-700 text-xs sm:text-sm font-sans leading-relaxed text-center md:text-left max-w-sm md:mr-auto">
               {COUPLE.bride.bio}
             </p>
@@ -226,10 +226,10 @@ export default function App() {
         id="invitation-footer"
       >
         <div className="font-serif text-[#6a8270] text-base italic mb-2">
-          "Sabbe Sattā Sukhi Hontu" — May all beings be happy, peaceful, and free.
+          "सब्बे सत्ता सुखी होनतु" - सर्व प्राणी आनंदी, शांत आणि मुक्त होवोत.
         </div>
         <p className="text-stone-700 font-sans text-[11px] uppercase tracking-widest max-w-[280px] sm:max-w-none mx-auto leading-relaxed font-semibold">
-          We await your loving presence and blessings on {COUPLE.groom.firstName} &amp; {COUPLE.bride.firstName}'s auspicious wedding union at {COUPLE.locationText}
+          आम्ही तुमच्या प्रेमळ उपस्थितीची आणि आशीर्वादांची वाट पाहत आहोत.{COUPLE.groom.firstName} &amp; {COUPLE.bride.firstName} शुभ विवाह सोहळा {COUPLE.locationText}
         </p>
 
       </motion.footer>
