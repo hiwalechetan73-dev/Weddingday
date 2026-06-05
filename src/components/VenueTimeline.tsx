@@ -93,7 +93,7 @@ export default function VenueTimeline() {
                     <div className="flex items-start gap-2.5 text-stone-700">
                       <Clock className="w-4 h-4 text-stone-500 shrink-0 mt-0.5" />
                       <div className="text-xs sm:text-sm font-sans">
-                        <span className="block font-semibold text-stone-900">Date & Time</span>
+                        <span className="block font-semibold text-stone-900">तारीख आणि वेळ</span>
                         <span>{event.time}</span>
                         <span className="block text-stone-500 mt-0.5 text-[11px] font-medium flex items-center gap-1">
                           <Calendar className="w-3.5 h-3.5 inline text-stone-400" />
@@ -106,11 +106,11 @@ export default function VenueTimeline() {
                     <div className="flex items-start gap-2.5 text-stone-700">
                       <Shirt className="w-4 h-4 text-stone-500 shrink-0 mt-0.5" />
                       <div className="text-xs sm:text-sm font-sans">
-                        <span className="block font-semibold text-stone-900">Dress Attire</span>
+                        <span className="block font-semibold text-stone-900">वेषभूषा</span>
                         <span className="text-amber-800 font-medium">
-                          {event.id === 'haldi' && 'Vibrant Yellow / Sunny Ethnic'}
-                          {event.id === 'wedding' && 'Formal Indian Traditional Saree/Sherwani'}
-                          {event.id === 'reception' && 'Indo-Western Glitz / Evening formal Gown / Suit'}
+                          {event.id === 'haldi' && 'पिवळा हळदीचा पोशाख / सनी एथनिक'}
+                          {event.id === 'wedding' && 'औपचारिक भारतीय पारंपरिक साडी/शेरवानी'}
+                          {event.id === 'reception' && 'इंडो-वेस्टर्न ग्लिट्झ / इव्हनिंग फॉर्मल गाऊन / सूट'}
                         </span>
                       </div>
                     </div>
@@ -121,7 +121,7 @@ export default function VenueTimeline() {
                     <div className="flex items-start gap-2.5 text-stone-700">
                       <MapPin className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
                       <div className="text-xs sm:text-sm font-sans">
-                        <span className="block font-semibold text-stone-900">Venue</span>
+                        <span className="block font-semibold text-stone-900">स्थळ</span>
                         <span className="font-medium text-stone-800">{event.venueName}</span>
                         <span className="block text-stone-550 text-[11px] leading-relaxed mt-0.5">{event.address}</span>
                       </div>
