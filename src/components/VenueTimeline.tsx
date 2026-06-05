@@ -103,7 +103,7 @@ export default function VenueTimeline() {
                     </div>
 
                     {/* Dress Code Slot */}
-                    <div className="flex items-start gap-2.5 text-stone-700">
+                    {/* <div className="flex items-start gap-2.5 text-stone-700">
                       <Shirt className="w-4 h-4 text-stone-500 shrink-0 mt-0.5" />
                       <div className="text-xs sm:text-sm font-sans">
                         <span className="block font-semibold text-stone-900">वेषभूषा</span>
@@ -113,7 +113,7 @@ export default function VenueTimeline() {
                           {event.id === 'reception' && 'इंडो-वेस्टर्न ग्लिट्झ / इव्हनिंग फॉर्मल गाऊन / सूट'}
                         </span>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
 
                   <div className="space-y-3">
