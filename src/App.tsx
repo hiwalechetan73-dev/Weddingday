@@ -87,7 +87,7 @@ export default function App() {
               {COUPLE.groom.parents} &nbsp;&amp;&nbsp; {COUPLE.bride.parents}
             </p>
             <p className="text-stone-600 text-xs sm:text-[13px] mt-1 italic font-serif">
-              त्यांच्या प्रिय मुलामुलींच्या विवाह सोहळ्यात आपणास सन्माननीय सहभाग घेण्याची विनंती आहे.
+              यांच्या प्रिय मुलामुलींच्या विवाह सोहळ्यात आपणास सन्माननीय सहभाग घेण्याची विनंती आहे.
             </p>
           </div>
 
@@ -97,7 +97,7 @@ export default function App() {
               <h1 className="font-script text-4xl sm:text-5xl md:text-6xl text-amber-700 font-normal tracking-wide leading-none pb-1 select-none hover:scale-105 transition-transform duration-500">
                 {COUPLE.groom.firstName}
               </h1>
-              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">{COUPLE.groom.parents} चा मुलगा</span>
+              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">{COUPLE.groom.parents} यांचा मुलगा</span>
             </div>
 
             <div className="my-2 md:my-0 flex items-center justify-center select-none">
@@ -112,7 +112,7 @@ export default function App() {
               <h1 className="font-script text-4xl sm:text-5xl md:text-6xl text-amber-700 font-normal tracking-wide leading-none pb-1 select-none hover:scale-105 transition-transform duration-500">
                 {COUPLE.bride.firstName}
               </h1>
-              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">{COUPLE.bride.parents} ची मुलगी</span>
+              <span className="text-[9px] sm:text-xs font-serif-display text-[#6a8270] tracking-[0.25em] font-bold uppercase block mt-1">{COUPLE.bride.parents} यांची मुलगी</span>
             </div>
           </div>
 
@@ -173,7 +173,7 @@ export default function App() {
           <div className="text-center md:text-right space-y-3 pr-0 md:pr-6 border-b md:border-b-0 md:border-r border-[#6a8270]/20 pb-6 md:pb-0">
             <span className="text-[10px] uppercase tracking-[0.2em] text-[#b8860b] font-serif-display font-black block">वर</span>
             <h3 className="font-serif-display text-2xl font-bold tracking-widest uppercase text-[#1e2f24]">{COUPLE.groom.fullName}</h3>
-            <p className="text-xs text-[#b8860b] font-serif italic">{COUPLE.groom.parents} चा प्रिय पुत्र</p>
+            <p className="text-xs text-[#b8860b] font-serif italic">{COUPLE.groom.parents} यांचा प्रिय पुत्र</p>
             <p className="text-stone-700 text-xs sm:text-sm font-sans leading-relaxed text-center md:text-right max-w-sm md:ml-auto">
               {COUPLE.groom.bio}
             </p>
@@ -183,7 +183,7 @@ export default function App() {
           <div className="text-center md:text-left space-y-3 pl-0 md:pl-6 pt-2 md:pt-0">
             <span className="text-[10px] uppercase tracking-[0.2em] text-[#b8860b] font-serif-display font-black block">वधू</span>
             <h3 className="font-serif-display text-2xl font-bold tracking-widest uppercase text-[#1e2f24]">{COUPLE.bride.fullName}</h3>
-            <p className="text-xs text-[#b8860b] font-serif italic">{COUPLE.bride.parents} ची प्रिय कन्या</p>
+            <p className="text-xs text-[#b8860b] font-serif italic">{COUPLE.bride.parents} यांची प्रिय कन्या</p>
             <p className="text-stone-700 text-xs sm:text-sm font-sans leading-relaxed text-center md:text-left max-w-sm md:mr-auto">
               {COUPLE.bride.bio}
             </p>
