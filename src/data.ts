@@ -2,32 +2,32 @@ import { WeddingEvent, GuestWish } from './types';
 
 export const COUPLE = {
   groom: {
-    firstName: 'Mohit',
-    fullName: 'Mohit Hiwale',
-    parents: 'Mr. & Mrs. Hiwale',
-    bio: 'An aspiring and dedicated mind who believes in building a harmonious life of compassion, wisdom, and mutual support, finding his perfect life partner in Komal.'
+    firstName: 'मोहित',
+    fullName: 'मोहित हिवाळे',
+    parents: 'श्री. आणि श्रीमती हिवाळे',
+    bio: 'करुणा, शहाणपण आणि परस्पर सहकार्यावर आधारित सुसंवादी जीवन घडवण्यावर विश्वास ठेवणाऱ्या एका महत्त्वाकांक्षी आणि समर्पित व्यक्तीला, कोमलच्या रूपात आपला योग्य जीवनसाथी सापडला आहे.'
   },
-  text: 'Mohit & Komal',
+  text: 'मोहित आणि कोमल',
   bride: {
-    firstName: 'Komal',
-    fullName: 'Komal Raut',
-    parents: 'Mr. & Mrs. Raut',
-    bio: 'An aspiring and serene soul filled with mindfulness, wisdom, and warm-hearted grace. She is looking forward to beginning this beautiful lifetime journey of Dhamma, love, and growth with Mohit.'
+    firstName: 'कोमल',
+    fullName: 'कोमल राऊत',
+    parents: 'श्री. आणि श्रीमती राऊत',
+    bio: 'सजगता, ज्ञान आणि प्रेमळ कृपेने परिपूर्ण, एक महत्त्वाकांक्षी आणि शांत आत्मा. ती मोहितसोबत धम्म, प्रेम आणि विकासाच्या या सुंदर आयुष्यभराच्या प्रवासाला सुरुवात करण्यास उत्सुक आहे.'
   },
   weddingDate: '2026-06-19T19:11:00', // Set to June 19, 2026 at 7:11 PM as requested
-  locationText: 'Maharaja Lawns, Jafrabad, Jalna',
+  locationText: 'महाराज लॉन्स, जाफ्राबाद, जालना',
 };
 
 export const WEDDING_EVENTS: WeddingEvent[] = [
   {
     id: 'haldi',
-    title: 'Haldi Ceremony',
-    date: 'Thursday, June 18, 2026',
-    time: '10:00 AM onwards',
-    venueName: 'Vishwas Nagar',
-    address: 'Chikhali road, Buldana, Maharashtra',
+    title: 'हळद समारंभ',
+    date: 'गुरुवार, १८ जून, २०२६',
+    time: 'सकाळी १०:०० पासून पुढे',
+    venueName: 'विश्वास नगर',
+    address: 'चिखली रोड, बुलडाणा, महाराष्ट्र',
     mapUrl: 'https://maps.google.com/?q=Vishwas+Nagar+Chikhali+road+Buldana',
-    description: 'Let us splash vibrant yellow and joyful smiles! Join us in bathing the bride and groom under fragrant turmeric paste, water-colors, and lighthearted blessings. Dress code: Haldi Yellow / Sunny Festive.',
+    description: 'चला, चैतन्यमय पिवळा रंग आणि आनंदी हास्यांची उधळण करूया! सुवासिक हळदीचा लेप, जलरंग आणि मनमोहक आशीर्वादांनी वधू-वरांना न्हाऊ घालण्यासाठी आमच्यात सामील व्हा. पेहराव: हळदी पिवळा / प्रसन्न सणाचा.',
     colorTheme: {
       bg: 'bg-amber-50',
       border: 'border-amber-200',
@@ -38,13 +38,13 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
   },
   {
     id: 'wedding',
-    title: 'The Sacred Buddhist Wedding & Vandana',
-    date: 'Friday, June 19, 2026',
-    time: '07:11 PM onwards',
-    venueName: 'Maharaja Lawns',
-    address: 'Jafrabad, Jalna, Maharashtra',
+    title: 'पवित्र बौद्ध विवाह आणि वंदना',
+    date: 'शुक्रवार, १९ जून, २०२६',
+    time: 'सायंकाळी ०७:११',
+    venueName: 'महाराजा लॉन्स',
+    address: 'जाफराबाद, जालना, महाराष्ट्र',
     mapUrl: 'https://maps.google.com/?q=Maharaja+Lawns+Jafrabad+Jalna',
-    description: 'Conducted under the divine chanting of the Mangala Sutta and holy blessings of the Triple Gem (Buddha, Dhamma, Sangha), we will pledge our lifetime vows and celebrate our auspicious union. Followed by a grand Royal Dinner. Dress code: Traditional Royal Ethnic / Sherwanis and Sarees.',
+    description: 'मंगल सुत्ताच्या दिव्य पठणाखाली आणि त्रिरत्नांच्या (बुद्ध, धम्म, संघ) पवित्र आशीर्वादाने, आम्ही आमच्या आजीवन व्रतांची शपथ घेऊ आणि आमच्या शुभ मिलनाचा सोहळा साजरा करू. त्यानंतर भव्य शाही भोजनाचा कार्यक्रम होईल. पेहराव: पारंपरिक शाही पोशाख / शेरवानी आणि साड्या.',
     colorTheme: {
       bg: 'bg-rose-50',
       border: 'border-rose-200',
@@ -55,13 +55,13 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
   },
   {
     id: 'reception',
-    title: 'Grand Reception & Feast',
-    date: 'Saturday, June 20, 2026',
-    time: '04:00 PM onwards',
-    venueName: 'Ramaji Lawns',
-    address: 'Chikhali road, Buldana, Maharashtra',
+    title: 'भव्य स्वागत समारंभ',
+    date: 'शनिवार, २० जून, २०२६',
+    time: 'दुपारी ०४:०० पासून पुढे',
+    venueName: 'रामाजी लॉन्स',
+    address: 'चिखली रोड, बुलडाणा, महाराष्ट्र',
     mapUrl: 'https://maps.google.com/?q=Ramaji+Lawns+Chikhali+road+Buldana',
-    description: 'An evening of joy and gratitude! Celebrate our first evening as husband and wife with divine music, family greetings, and an elaborate festive dinner. Dress code: Indo-Western / formals.',
+    description: 'आनंद आणि कृतज्ञतेची संध्या! पती-पत्नी म्हणून आपली पहिली संध्याकाळ दिव्य संगीत, कौटुंबिक शुभेच्छा आणि भव्य मेजवानीसह साजरी करा. पेहराव: इंडो-वेस्टर्न / फॉर्मल्स.',
     colorTheme: {
       bg: 'bg-emerald-50',
       border: 'border-emerald-200',
