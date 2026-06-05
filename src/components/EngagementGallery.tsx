@@ -20,16 +20,16 @@ export default function EngagementGallery() {
     {
       id: 'photo-1',
       src : img1,
-      title: 'Moments of Serene Connection',
-      caption: 'A gentle look, a shared breath, beginning an auspicious lease of life in perfect harmony.',
+      title: 'नात्याचे क्षण',
+      caption: 'एक प्रेमळ कटाक्ष, एक श्वासाची देवाणघेवाण, परिपूर्ण सुसंवादाने एका शुभ जीवनाची सुरुवात.',
       category: 'Soulmates',
       aspect: 'aspect-[3/4]'
     },
     {
       id: 'photo-2',
       src : img2,
-      title: 'Joy Beneath the Marigold Canopy',
-      caption: 'Laughter echoing like soft bells under the warmth of the golden morning sun.',
+      title: 'झेंडूच्या छताखाली आनंद',
+      caption: 'सकाळच्या सोनेरी उन्हाच्या उबदारपणात, मंद घंटांप्रमाणे हास्याचे पडसाद उमटत होते.',
       category: 'Candids',
       aspect: 'aspect-[3/4]'
     }
@@ -51,7 +51,7 @@ export default function EngagementGallery() {
           Love in Focus
         </h2>
         <p className="text-stone-500 font-sans text-xs tracking-[0.25em] uppercase mt-3 max-w-md mx-auto leading-relaxed">
-          Glimpses of Mohit &amp; Komal's journey towards their sacred union &bull; Designed by hand
+          मोहित आणि कोमल यांच्या पवित्र मिलनाच्या प्रवासाची झलक • हस्तनिर्मित
         </p>
         <div className="flex items-center justify-center gap-2 mt-5">
           <div className="h-[1px] w-14 bg-gradient-to-r from-transparent to-[#b8860b]" />
